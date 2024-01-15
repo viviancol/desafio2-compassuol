@@ -1,0 +1,16 @@
+.splide__pagination {
+  display: none;
+  
+}
+.splide__list {
+  display: flex;
+  gap: 40px;
+ 
+}
+
+@media (max-widht: 768px) {
+  .splide__list {
+    display: flex;
+    gap: 10px;
+  }
+}

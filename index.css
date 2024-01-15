@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  hr {
+    @apply m-auto;
+  }
+}
+
+@layer components {
+  .inputstyle {
+    @apply w-full mt-2 mb-3  py-2 px-3 text-linegray bg-gelo  rounded-[4px];
+  }
+  .labelstyle {
+    @apply font-inter font-medium text-base;
+  }
+  .label-div {
+    @apply flex justify-between h-6;
+  }
+  .input-error-style {
+    @apply border-errorred;
+  }
+  .errormessage {
+    @apply text-errorred font-light text-base -mb-4;
+  }
+  .p-style {
+    @apply font-raleway text-textgray text-[16px] ;
+  }
+  .header-style {
+    @apply text-lunar text-[32px] md:text-[64px] font-bold font-garamond  text-left md:text-center w-full;
+  }
+  .header-card {
+    @apply font-lato font-bold text-[24px] text-lunar text-left ml-6 mt-2;
+  }
+  .price-card {
+    @apply font-raleway text-[16px] text-left text-lunar ml-6 mt-1;
+  }
+  .discount-card {
+    @apply font-raleway text-[16px] text-left text-linegray line-through	 ml-6 mt-1;
+  }
+  .label-card {
+    @apply font-raleway text-[16px] text-left text-abacate border-[1px] border-solid	border-abacate bg-gelo rounded-[20px] ml-6 mt-1 py-2 px-3 w-fit;
+  }
+
+  .div-style {
+    @apply flex flex-col basis-full items-center;
+  }
+
+
+}
